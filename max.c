@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include "Func.h"
 
-int max(int i,int j){
-    if(i>j)
-    return i;
+int max(int x,int y){
+    if(x>y)
+    return x;
     else
-    return j;
+    return y;
     //printf("The min value is : %d",(i>j) ? 'x':'y');
 }
